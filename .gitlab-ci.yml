@@ -1,0 +1,19 @@
+image: mcr.microsoft.com/dotnet/sdk
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - dotnet build ./PauseAtNewDemands
+    - mkdir pause-at-new-demands
+    - cp mod.json pause-at-new-demands/
+    - cp preview.png pause-at-new-demands/
+    - cp PauseAtNewDemands/bin/Debug/netstandard2.1/PauseAtNewDemands.dll pause-at-new-demands/
+  artifacts:
+    name: "pause-at-new-demands"
+    paths:
+      - pause-at-new-demands
+  only:
+    - master
