@@ -33,7 +33,7 @@ namespace PauseAtNewDemands
         private static IEnumerable<CityDemand> Demands()
         {
             var list = new List<CityDemand>();
-            
+
             var cities = CityManager.Current.Cities;
             for (var i = 0; i < cities.Count; i++)
             {
