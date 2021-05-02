@@ -12,4 +12,4 @@ VoxelTycoonのMODで、新しい需要が発生した際にPauseをかけるだ�
 
 ## 注意
 
-[github.com](https://github.com/tsuchinaga/voxel-tycoon-mod-auto-repayment) にミラーリングしていますが、オリジナルは [gitlab.com](https://gitlab.com/tsuchinaga/voxel-tycoon-mod-auto-repayment) にあります。
+[github.com](https://github.com/tsuchinaga/voxel-tycoon-mod-pause-at-new-demands) にミラーリングしていますが、オリジナルは [gitlab.com](https://gitlab.com/tsuchinaga/voxel-tycoon-mod-pause-at-new-demands) にあります。
