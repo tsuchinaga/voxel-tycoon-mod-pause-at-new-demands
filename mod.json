@@ -1,4 +1,4 @@
 {
-    "Title" : "Auto repayment",
-    "Description" : "Automatic repayment at the end of the month."
+    "Title" : "Pause at new demands",
+    "Description" : "新しい需要が発生したらポーズをかける"
 }
